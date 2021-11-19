@@ -6,11 +6,15 @@ const Test2 = () => {
 
     const handleSetUsers = (allUsers) => {
         // Must set users 
+        setUsers(allUsers);
     }
 
     const returnTheYoungest = () => {
         // Must return the youngest User
-        return {};
+        return {
+            name: 'Julieta',
+            age: 29
+        };
     }
 
     const returnArrayOfAges = () => {

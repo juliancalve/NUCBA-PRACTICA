@@ -76,7 +76,7 @@ describe('Test2', () => {
                 age: 28
             },
             {
-                nam: 'Paula',
+                name: 'Paula',
                 age: 33
             },
             {
